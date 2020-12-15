@@ -2,4 +2,6 @@
 tweaksplusplus-patcher:
 	$(CC) -o $@ main.c $(STLDFLAGS)
 clean:
-	rm tweaksplusplus-patcher 
+	rm tweaksplusplus-patcher
+user-install:
+	cp tweaksplusplus-patcher $HOME/.local/bin
