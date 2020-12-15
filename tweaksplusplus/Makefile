@@ -1,6 +1,5 @@
 #bruh, dat's the only one tho
 tweaksplusplus-patcher:
-	$(CC) main.c
+	$(CC) -o $@ main.c $(STLDFLAGS)
 clean:
-	rm a.out
-
+	rm tweaksplusplus-patcher 
