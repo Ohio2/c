@@ -4,4 +4,4 @@ tweaksplusplus-patcher:
 clean:
 	rm tweaksplusplus-patcher
 user-install:
-	cp tweaksplusplus-patcher $HOME/.local/bin
+	cp tweaksplusplus-patcher ${HOME}/.local/bin
