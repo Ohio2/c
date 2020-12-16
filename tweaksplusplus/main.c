@@ -3,7 +3,7 @@
 /*Cheat sheet;
 scanf: Read input
 int: variable
-*/
+char: a character (INT)*/
 int main()
 {
     /*mate c'mon you know how to extract the zips. atleast that pls!*/
@@ -15,9 +15,9 @@ int main()
     scanf("%c", &input_file);
     printf("Output File is...: \n");
     scanf("%c", &output_file);
-    system("mv -f $input_file/* $output_file");
-    system("mv $output_file ResourcePackPatched");
-    system("zip $output_file"); 
+    system("mv -f @input_file/* @output_file");
+    system("mv @output_file ResourcePackPatched");
+    system("zip @output_file"); 
     printf("Patched!");
-    return ~150;
+    return 0;
 }

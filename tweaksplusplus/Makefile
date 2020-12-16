@@ -5,3 +5,6 @@ clean:
 	rm tweaksplusplus-patcher
 user-install:
 	cp tweaksplusplus-patcher ${HOME}/.local/bin
+user-uninstall:
+	rm ${HOME}/.local/bin/tweaksplusplus-patcher
+
